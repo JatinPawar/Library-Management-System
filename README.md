@@ -21,6 +21,8 @@ In this project there are 6 pages:-
 6)Add Book              : Adds book to the library.(i.e. books entered from here are available in the library.)
 
 
+
+
 Steps:-
 
 1)First intall XAMPP on your computer.
@@ -36,6 +38,7 @@ Steps:-
 6)Now you are all set to go.........So go browser and call the addbook.php.(i.e "localhost:80/LiB/addbook.php")
 
 Note:-
+
     When you start the Library System there are no registered students and no books are added in the library.
     So, first of all register some students.(Always remember that the roll number of two students can not be same.)
     Then add books and then try to issue them.
