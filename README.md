@@ -5,6 +5,7 @@ The table named student keeps a record of all the registed students.
 The table named infobook keeps a track of the booksissued to students and their issue date and return date.
 
 In this project there are 6 pages:-
+
 1)Home Page             : Acts as a presentation to tell what the project is all about.
 2)Student Registration  : Register students as only the students who are registered can issue a book.
 3)Find Book             : Finds a book based on the title.(You just need to enter a matching title of a book which is in the library.)
