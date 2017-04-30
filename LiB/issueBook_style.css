@@ -1,0 +1,213 @@
+
+@font-face{
+	font-family: "Cherry Jam Personal Use";
+	src:	url('./fonts/Cherry Jam Personal Use.ttf');
+
+}
+
+@font-face{
+		font-family: "Brush StrokeFast";
+	src: url("./fonts/Brush StrokeFast.otf");
+	}
+
+@font-face{
+		font-family: "Urban Jungle";
+	src: url("./fonts/Urban Jungle.otf");
+	}
+
+@font-face{
+		font-family: "POLYA Regular";
+	src: url("./fonts/POLYA Regular.otf");
+	}
+
+@font-face{
+		font-family: "Popsies";
+	src: url("./fonts/Popsies.ttf");
+	}
+
+@font-face{
+		font-family: "OilBats";
+	src: url("./fonts/OilBats.ttf");
+	}
+
+
+
+html{
+	//background-image: url(http://subtlepatterns.com/patterns/kindajean.png);
+	
+	background: url("./img/l1.jpeg"); no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	
+    
+}
+
+
+body {margin-top:150px;}
+
+
+.icon-bar {
+	margin-top:30px;
+    width: 90px;
+	left:40px;
+    background-color: #555;
+	align:left;
+	opacity:0.9;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 1.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+	transition: all 1s ease-in-out;
+	transform: scale(1.35);
+	
+	
+}
+
+.active {
+    background-color:#01C26E!important;
+}
+
+
+.detailsDiv{
+	top:0;
+	width: 496px;
+	height: 508px;
+	text-align: left;
+	font-family:	Cherry Jam Personal Use;
+	font-size: 20px;
+	color: white;
+	position:absolute;
+	margin:0 auto;
+	margin-left:755px;
+	margin-top:70px;
+	background-color: rgba(52,73,94,0.7);
+	/*#3498db;
+	#E91818
+	#F9690E
+	//opacity: 0.9;
+	*/
+
+	border-radius:10px;
+
+	
+	
+
+}
+
+input[type="text"],input[type="number"] {
+	height: 28px;
+	width: 250px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	margin-right:0;
+	margin-left: 10px;
+	background-color: #fff;
+	padding-left: 20px;
+	border-radius: 5px;
+	
+
+	
+}
+
+.submit {
+  border-radius: 4px;
+  background-color: #01C26E;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: Brush StrokeFast;
+  margin-left:160px;
+  
+}
+
+.submit span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.submit span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.submit:hover span {
+  padding-right: 25px;
+}
+
+.submit:hover span:after {
+  opacity: 1;
+  right: 0;
+
+}
+
+
+
+#a{
+	margin-top: 40px;
+	margin-left: 76px; 
+
+
+}
+
+#g{
+	margin-top: 40px;
+	margin-left: 117px; 
+	
+}
+#d{
+	margin-top: 40px;
+	margin-left: 110px; 
+}
+
+#e{
+	margin-top: 40px;
+	margin-left: 96px; 
+}
+
+#r{
+	margin-top: 20px;
+	margin-left: 90px;
+
+}
+
+#b{
+	margin-top: 40px;
+	margin-left: 40px;
+
+}
+
+#f{
+	margin-top: 40px;
+	margin-left: 57px;
+
+}
+
+#heading{
+	font-family: OilBats;
+	font-size: 40px;
+	color:	#01C26E;
+}
